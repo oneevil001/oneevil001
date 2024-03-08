@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the webpage -->
+    <title>Medical Clinic</title>
+
+    <!-- Linking the CSS stylesheet for styling -->
+    <link rel="stylesheet" href="hack.css">
+</head>
+
+<body>
+    <!-- Header section containing the clinic name and navigation menu -->
+    <header>
+        <h1>Medical Clinic</h1>
+        <!-- Navigation menu with links to different sections -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#appointments">Appointments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home section with a welcome message -->
+    <section id="home">
+        <h2>Welcome to Our Medical Clinic</h2>
+        <p>Providing quality healthcare services for a healthier community.</p>
+    </section>
+
+    <!-- Services section listing the clinic's offerings -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <nav>
+    
+            <li><a href="/Electronic Health Records (EHRs).html">Electronic Health Records (EHRs)</a></li>
+            <li><a href="/Telehealth and Telemedicine.html">Telehealth and Telemedicine</a></li>
+            <li><a href="/Wearable Health Device.html">Wearable Health Device</a></li>
+            <li><a href="/Telemedicine Consultations.html">Telemedicine Consultations</a></li>
+            <li><a href="/Genomic Medicine.html">Genomic Medicine</a></li>
+            <li><a href="/Blockchain Technology.htm Analytics.html">Healthcare Analytics</a></li>
+            <li><a href="/Robotics in surgery.html">Robotics in surgery</a></li>
+            <li><a href="/IoT (Internet of Things) in Healthcare.html">IoT</a></li>
+            <li><a href="/Blockchain Technology.html">Blockchain Technology</a></li>
+            <li><a href="/Mobile health applicatin.html">Mobile health applicatin</a></li>
+            
+        </nav>
+    </section>
+
+    <!-- Appointments section with a prompt to schedule an appointment -->
+    <section id="appointments">
+        <h2>Appointments</h2>
+        <p>Schedule an appointment with our experienced healthcare professionals.</p>
+        <a href="#contact" class="button">Contact Us</a>
+    </section>
+
+    <!-- Contact section with a form for inquiries and appointment scheduling -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for inquiries or to schedule an appointment.</p>
+        <!-- Form for user input (name, email, message) -->
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <!-- Submit button to send the form data -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 Medical Clinic. All rights reserved.</p>
+    </footer>
+
+    <!-- Including the JavaScript file for additional functionality -->
+    <script src="script.js"></script>
+</body>
+
+</html>

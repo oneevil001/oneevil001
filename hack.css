@@ -1,0 +1,50 @@
+/* Styling for the entire webpage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url("ho.webp");
+    background-size: cover;
+}
+
+/* Styling for the header section */
+header {
+    background-color: lightgreen;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Styling for the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Styling for each section of the webpage */
+section {
+    padding: 2em;
+}
+
+/* Styling for buttons */
+button {
+    background-color: whitesmoke;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling for the footer section */
+footer {
+    background-color: #f4f4f4;
+    padding: 1em;
+    text-align: center;
+}
